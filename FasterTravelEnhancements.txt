@@ -3,5 +3,6 @@
 ## APIVersion: 101045
 ## Version: 1.0.0
 ## DependsOn: FasterTravel
+## SavedVariables: FasterTravelEnhancements_Data
 
 FasterTravelEnhancements.lua

@@ -2,7 +2,8 @@
 ## Author: xIvanGx
 ## APIVersion: 101045
 ## Version: 1.0.0
-## DependsOn: FasterTravel
+## DependsOn: FasterTravel>=3.1.6 LibAddonMenu-2.0>=38
 ## SavedVariables: FasterTravelEnhancements_Data
 
 FasterTravelEnhancements.lua
+Settings.lua

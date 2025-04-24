@@ -1,4 +1,11 @@
-FasterTravelEnhancements = { addon = { name = "FasterTravelEnhancements" } }
+FasterTravelEnhancements = {
+    addon = {
+        name = "FasterTravelEnhancements",
+        displayName = "|c40FF40Faster|r Travel |cFFC300Enhancements|r",
+        author = "xIvanGx",
+        version = "1.0.0"
+    }
+}
 
 local FT = FasterTravel
 local FTE = FasterTravelEnhancements
@@ -124,6 +131,8 @@ local function OnAddOnLoaded(event, addonName)
 
     savedVars = ZO_SavedVars:NewAccountWide(addon.name .. "_Data", 1, nil, savedVars)
     FTE.savedVars = savedVars
+
+    FTE.Settings.Initialize(addon, savedVars)
 
     FixLastTab()
     FixZoneIndexForFavoriteAndRecent()
